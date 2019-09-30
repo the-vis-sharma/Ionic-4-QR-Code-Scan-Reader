@@ -5,9 +5,12 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+
 
 @NgModule({
   imports: [
+    NgxQRCodeModule,
     CommonModule,
     FormsModule,
     IonicModule,
